@@ -18,7 +18,7 @@
     margin: 0 auto;
 }
   
-.features-card {
+.feature-card {
     background: #ffffff;
     border-radius: 16px;
     padding: 2rem;
@@ -27,18 +27,18 @@
     border: 1px solid #e0e0e0;
 }
   
-.features-card:hover {
+.feature-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
   
-.features-card h3 {
+.feature-card h3 {
     font-size: 1.4rem;
     color: #007acc;
     margin-bottom: 1rem;
 }
   
-.features-card p {
+.feature-card p {
     color: #444;
     font-size: 1rem;
     line-height: 1.6;
