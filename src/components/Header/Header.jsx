@@ -3,7 +3,7 @@ import "./Header.css";
 export default function Header(){
     return(
         <header>
-            <div>
+            <div className="header-title">
                 <h1>React App</h1>
             </div>
             <nav>
