@@ -1,7 +1,8 @@
 import "./Footer.css";
 
 export default function Footer(){
-    <footer className="footer" id="contact">
+    return(
+        <footer className="footer" id="contact">
         <div className="footer-content">
             <div className="footer-section">
                 <h3>Lorem ipsum dolor sit amet.</h3>
@@ -27,5 +28,7 @@ export default function Footer(){
             <button>&copy; 2025 - Todos os direitos reservados as vozes da minha cabeça</button>
         </div>
     </footer>
+
+    )
     
 }

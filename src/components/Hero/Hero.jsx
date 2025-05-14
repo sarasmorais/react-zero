@@ -1,7 +1,8 @@
 import "./Hero.css";
 
 export default function Hero(){
-    <section className="hero" id="home">
+    return(
+        <section className="hero" id="home">
         <div className="hero-content">
             <h2> Bem vindo ao mundo de React</h2>
             <p>
@@ -13,5 +14,6 @@ export default function Hero(){
 
         </div>
     </section>
+    )
     
 }
