@@ -1,7 +1,36 @@
 header {
+    background-color: #20232a;
+    color: #ffffff;
+    padding: 1.5rem 2rem;
     display: flex;
-    margin: 0 auto;
+    justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #61dafb;
 }
-
+  
+.header-title h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #61dafb;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+  
+nav ul li a:hover {
+    color: #61dafb;
+}
