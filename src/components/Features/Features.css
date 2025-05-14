@@ -1,43 +1,46 @@
 .features {
-    padding: 4rem 2rem;
-    background-color: #f4f6f8;
+    padding: 5rem 2rem;
+    background: linear-gradient(135deg, #e3f2fd, #fce4ec);
     text-align: center;
 }
   
 .features h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    color: #20232a;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
 }
   
 .features-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
 }
   
 .features-card {
-    background-color: #ffffff;
-    border-radius: 12px;
+    background: #ffffff;
+    border-radius: 16px;
     padding: 2rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
 }
   
 .features-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
   
 .features-card h3 {
+    font-size: 1.4rem;
+    color: #007acc;
     margin-bottom: 1rem;
-    color: #333;
-    font-size: 1.25rem;
 }
   
-  .features-card p {
-    color: #555;
+.features-card p {
+    color: #444;
     font-size: 1rem;
+    line-height: 1.6;
 }
+  
