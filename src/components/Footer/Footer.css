@@ -33,14 +33,14 @@
 .footer-section a {
     display: inline-block;
     margin: 0.25rem 0.5rem;
-    color: #adb1f3;
+    color: #ffc6ff;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
 }
   
 .footer-section a:hover {
-    color: #797ba7;
+    color: #ffc6ff;
 }
   
 .footer-button {
@@ -48,7 +48,7 @@
 }
   
 .footer-button button {
-    background-color: #adb1f3;;
+    background-color: #ffc6ff;
     border: none;
     color: #20232a;
     font-weight: bold;
@@ -60,5 +60,5 @@
 }
   
 .footer-button button:hover {
-    background-color: #7e7e94;
+    background-color: #ffc6ff;
 }
