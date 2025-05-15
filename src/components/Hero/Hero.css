@@ -40,7 +40,8 @@
 }
   
 .cta-button:hover {
-    background-color: #21a1f1;
+    background-color: #66688b;
+    color: #fff;
     transform: scale(1.05);
 }
   
