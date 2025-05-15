@@ -6,13 +6,13 @@ header {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    border-bottom: 2px solid #61dafb;
+    border-bottom: 2px solid #adb1f3;
 }
   
 .header-title h1 {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #61dafb;
+    color: #adb1f3;
 }
   
 nav ul {
@@ -32,5 +32,5 @@ nav ul li a {
 }
   
 nav ul li a:hover {
-    color: #61dafb;
+    color: #adb1f3;
 }
